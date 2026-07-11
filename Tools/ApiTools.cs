@@ -4,7 +4,7 @@ using System.Text;
 
 namespace George.PushingBox.Tools
 {
-    public static class ApiTools
+    public class ApiTools
     {
         public static void Draw(int x,int y,char avatar)
         {

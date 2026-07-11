@@ -7,17 +7,14 @@ namespace George.PushingBox.Maps
 {
     public class GameMapController
     {
-        private readonly static GameMapController _instance=new GameMapController();
-        public static GameMapController GetInstance()
-        {
-            return _instance;
-        }
+        private readonly static GameMapController _instance = new GameMapController();
+        public static GameMapController Instance => _instance;
         private GameMapController() { }
-        public GameMap CurrentGameMap { get; set; }
+        public GameMap CurrentGameMap { get; set; } = null!;
         public bool CheckMove(Input input, int x, int y)
         {
-            var staticElements=CurrentGameMap.StaticElements;
-            var boxElements=CurrentGameMap.BoxElements;
+            var staticElements = CurrentGameMap.StaticElements;
+            var boxElements = CurrentGameMap.BoxElements;
 
             if (staticElements[y, x] is MapBlock)//该位置是墙，输出false
             {
@@ -25,7 +22,7 @@ namespace George.PushingBox.Maps
             }
             if (boxElements.Any(a => a.PositionX == x && a.PositionY == y))//该位置是箱子
             {
-                var box =boxElements.Where(a => a.PositionX == x && a.PositionY == y).First();//取到该箱子
+                var box = boxElements.Where(a => a.PositionX == x && a.PositionY == y).First();//取到该箱子
                 int oldX = box.PositionX, oldY = box.PositionY;
                 switch (input)//根据输入移动箱子
                 {
@@ -59,7 +56,7 @@ namespace George.PushingBox.Maps
             return true;//默认输出true,再把false的情况列出来。
         }
 
-      
-     
+
+
     }
 }

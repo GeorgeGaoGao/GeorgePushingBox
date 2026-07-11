@@ -8,13 +8,11 @@ namespace George.PushingBox.Stages
     internal class StageController
     {
         private static StageController _instance = new StageController();
-        public static StageController GetInstance()
-        {
-            return _instance;
-        }
+        public static StageController Instance => _instance;
         public StageController() { }
         public void ShowSelection()
         {
+            Console.Clear();
             Console.WriteLine($"********************欢迎来到推箱子的世界********************");
             Console.WriteLine($"1 开始游戏");
             Console.WriteLine($"2 结束游戏");
@@ -36,17 +34,17 @@ namespace George.PushingBox.Stages
         /// <returns></returns>
         public bool JudgeClear()
         {
-            var targetElements = GameMapController.GetInstance().CurrentGameMap.TargetElements;
-            var boxElements = GameMapController.GetInstance().CurrentGameMap.BoxElements;
-            var count = 0;
-            foreach (var element in targetElements)
+            var targetElements = GameMapController.Instance.CurrentGameMap.TargetElements;
+            var boxElements = GameMapController.Instance.CurrentGameMap.BoxElements;
+            bool result = true;
+            foreach (var target in targetElements)
             {
-                if (boxElements.Any(a => a.PositionX == element.PositionX && a.PositionY == element.PositionY))
+                if (!boxElements.Exists( a => a.PositionX == target.PositionX && a.PositionY == target.PositionY))
                 {
-                    count++;
+                    result = false;break;
                 }
             }
-            return (count == targetElements.Count()) ? true : false;
+            return result;
         }
     }
 }

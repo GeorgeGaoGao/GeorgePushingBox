@@ -8,27 +8,24 @@ namespace George.PushingBox.Tools
     {
         UP, DOWN, LEFT, RIGHT, NONE
     }
-    public static class InputController
+    public class InputController
     {
         public static Input GetInput()
         {
-            Input input = Input.NONE;
-            ConsoleKey key = Console.ReadKey(true).Key;
-            switch (key)
+            return Console.ReadKey(true).Key switch
             {
-                case ConsoleKey.W: input = Input.UP; break;
-                case ConsoleKey.A: input = Input.LEFT; break;
-                case ConsoleKey.S: input = Input.DOWN; break;
-                case ConsoleKey.D: input = Input.RIGHT; break;
+                ConsoleKey.W => Input.UP,
+                ConsoleKey.A => Input.LEFT,
+                ConsoleKey.S => Input.DOWN,
+                ConsoleKey.D => Input.RIGHT,
 
-                case ConsoleKey.UpArrow: input = Input.UP; break;
-                case ConsoleKey.LeftArrow: input = Input.LEFT; break;
-                case ConsoleKey.DownArrow: input = Input.DOWN; break;
-                case ConsoleKey.RightArrow: input = Input.RIGHT; break;
+                ConsoleKey.UpArrow => Input.UP,
+                ConsoleKey.LeftArrow => Input.LEFT,
+                ConsoleKey.DownArrow => Input.DOWN,
+                ConsoleKey.RightArrow => Input.RIGHT,
 
-                default: input = Input.NONE; break;
-            }
-            return input;
+                _ => Input.NONE,
+            };
         }
     }
 }

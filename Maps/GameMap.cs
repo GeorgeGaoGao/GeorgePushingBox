@@ -13,14 +13,13 @@ namespace George.PushingBox.Maps
         public int Width { get; set; }
         public int Height { get; set; }
 
-
         //静态元素数组
-        public MapElement[,] StaticElements { get; set; }
+        public MapElement[,] StaticElements { get; set; } = null!;
 
         //箱子元素列表
-        public List<MapElement> BoxElements { get; set; } = new List<MapElement>();
+        public List<MapElement> BoxElements { get; set; } = null!;
         //目标元素列表
-        public List<MapElement> TargetElements { get; set; } = new List<MapElement>();
+        public List<MapElement> TargetElements { get; set; } = null!;
 
         /// <summary>
         /// 由输入的二维int数组来建立地图，0：空格 1：围墙# 2：箱子@ 3：目标A
@@ -30,11 +29,18 @@ namespace George.PushingBox.Maps
         public GameMap(int[,] mapArray)
         {
             //取到行数和列数
+            InitMap(mapArray);
+        }
+
+        public void InitMap(int[,] mapArray)
+        {
             Height = mapArray.GetLength(0);
             Width = mapArray.GetLength(1);
 
             //根据行数和列数初始化静态元素数组
             StaticElements = new MapElement[Height, Width];
+            TargetElements = new List<MapElement>();
+            BoxElements = new List<MapElement>();
 
             for (int y = 0; y < Height; y++)
             {
@@ -61,17 +67,6 @@ namespace George.PushingBox.Maps
                     }
                 }
             }
-
         }
-
-       
-
-        /// <summary>
-        /// 地图渲染，画出每个元素数组里的每个元素。
-        /// </summary>
-       
-
-
-      
     }
 }
