@@ -14,23 +14,19 @@ namespace George.PushingBox.Maps
         public int Height { get; set; }
 
         //静态元素数组
-        public MapElement[,] StaticElements { get; set; } = null!;
+        public MapElement[,] StaticElements { get; set; } = new MapElement[0,0];
 
         //箱子元素列表
-        public List<MapElement> BoxElements { get; set; } = null!;
+        public List<MapElement> BoxElements { get; set; } =new List<MapElement>();
         //目标元素列表
-        public List<MapElement> TargetElements { get; set; } = null!;
+        public List<MapElement> TargetElements { get; set; } = new List<MapElement>();
 
         /// <summary>
         /// 由输入的二维int数组来建立地图，0：空格 1：围墙# 2：箱子@ 3：目标A
         /// 元素数组所需的长度从输入的参数数组中取得。
         /// </summary>
         /// <param name="mapArray"></param>
-        public GameMap(int[,] mapArray)
-        {
-            //取到行数和列数
-            InitMap(mapArray);
-        }
+        public GameMap() { }
 
         public void InitMap(int[,] mapArray)
         {

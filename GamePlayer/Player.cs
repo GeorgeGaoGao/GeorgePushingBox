@@ -8,6 +8,7 @@ namespace George.PushingBox.GamePlayer
         public int PositionX { get; set; }
         public int PositionY { get; set; }
         public char Avatar { get; set; }
+        public Player() { }
         public Player(int x, int y, char avatar)
         {
             PositionX = x;

@@ -10,9 +10,11 @@ namespace George.PushingBox.Maps
         private readonly static GameMapController _instance = new GameMapController();
         public static GameMapController Instance => _instance;
         private GameMapController() { }
-        public GameMap CurrentGameMap { get; set; } = null!;
+        public GameMap CurrentGameMap { get; set; } = new GameMap();
         public bool CheckMove(Input input, int x, int y)
         {
+           
+           
             var staticElements = CurrentGameMap.StaticElements;
             var boxElements = CurrentGameMap.BoxElements;
 
@@ -33,6 +35,14 @@ namespace George.PushingBox.Maps
                     default: break;
                 }
                 //检查箱子新位置是否会让移动失败，若失败则退回。
+                //看有没有超出边界
+                if (box.PositionX<0||box.PositionY<0||box.PositionX>CurrentGameMap.Width-1||box.PositionY>CurrentGameMap.Height-1)
+                {
+                    box.PositionX = oldX;
+                    box.PositionY = oldY;
+                    return false;
+                }
+               
                 //先看有没有墙
                 if (staticElements[box.PositionY, box.PositionX] is MapBlock)//新位置是墙，退回箱子，返回false
                 {
