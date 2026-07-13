@@ -36,14 +36,19 @@ namespace George.PushingBox.Stages
         public void ShowSelection()
         {
             Console.Clear();
-            Console.WriteLine($"********************欢迎来到推箱子的世界********************");
+            ApiTools.InitCursor();
+            ApiTools.PrintText($"********************欢迎来到推箱子的世界********************");
+            //Console.WriteLine($"********************欢迎来到推箱子的世界********************");
 
             //显示所有关卡的名字
             for (int i = 0; i < StageInfos.Length; i++)
             {
-                Console.WriteLine($"{i + 1} {StageInfos[i].StageName}");
+                
+                ApiTools.PrintText($"{i + 1} {StageInfos[i].StageName}");
+                //Console.WriteLine($"{i + 1} {StageInfos[i].StageName}");
             }
-            Console.WriteLine($"按Q键退出游戏");
+            ApiTools.PrintText($"按Q键退出游戏");
+            //Console.WriteLine($"按Q键退出游戏");
             //显示光标，让光标只在关卡名字间移动，同时记录下关卡数保存到_stageSelected，后续根据关卡数启动该关卡
             Console.CursorVisible = true;
             Console.CursorTop = 1;//因为欢迎语只占用了一行即第0行，所以移到第1行。
@@ -73,7 +78,7 @@ namespace George.PushingBox.Stages
                     case Input.ENTER:
                         isSelectionContinue = false;
                         break;
-                    case Input.Q:
+                    case Input.QUIT:
                         Environment.Exit(0);
                         break;
                     default: break;
@@ -87,8 +92,9 @@ namespace George.PushingBox.Stages
         /// <summary>
         /// 根据选定的关卡做好准备。
         /// </summary>
-        public void StartStage()
+        public void PrepareStage()
         {
+            Console.Clear();
             Console.CursorVisible = false;
             //初始化该关卡的地图
             var stage = StageInfos[_stageSelected];
@@ -118,7 +124,7 @@ namespace George.PushingBox.Stages
                     Console.WriteLine($"press any key to continue!");
                     Console.ReadKey(true);
                     StageController.Instance.ShowSelection();
-                    StageController.Instance.StartStage();
+                    StageController.Instance.PrepareStage();
 
                 }
             }

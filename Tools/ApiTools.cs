@@ -8,10 +8,24 @@ namespace George.PushingBox.Tools
 {
     public enum Input
     {
-        UP, DOWN, LEFT, RIGHT, ENTER, NONE, Q
+        UP, DOWN, LEFT, RIGHT, ENTER, NONE, QUIT
     }
     public class ApiTools
     {
+        public static int OriginalCursorTop { get; set; } = 10;
+        public static int OriginalCursorLeft { get; set; } = 50;
+
+        public static void InitCursor()
+        {
+            Console.CursorLeft = OriginalCursorLeft;
+            Console.CursorTop = OriginalCursorTop;
+        }
+
+        public static void PrintText(string text)
+        {
+            Console.CursorLeft = OriginalCursorLeft;
+            Console.WriteLine( text);
+        }
         /// <summary>
         /// 画基本元素的方法
         /// </summary>
@@ -20,10 +34,10 @@ namespace George.PushingBox.Tools
         /// <param name="avatar"></param>
         public static void Draw(int x,int y,char avatar)
         {
-            x = x < 0 ? 0 : x;
-            y= y < 0 ? 0 : y;
+            //x = x < 0 ? 0 : x;
+            //y= y < 0 ? 0 : y;
            
-            Console.CursorLeft = x; Console.CursorTop = y;
+            Console.CursorLeft =OriginalCursorLeft+ x; Console.CursorTop =OriginalCursorTop+ y;
             Console.Write(avatar);
         }
         /// <summary>
@@ -45,7 +59,7 @@ namespace George.PushingBox.Tools
                 ConsoleKey.RightArrow => Input.RIGHT,
 
                 ConsoleKey.Enter => Input.ENTER,
-                ConsoleKey.Q => Input.Q,
+                ConsoleKey.Escape => Input.QUIT,
 
                 _ => Input.NONE,
             };

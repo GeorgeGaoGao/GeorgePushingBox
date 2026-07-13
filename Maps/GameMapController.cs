@@ -11,18 +11,27 @@ namespace George.PushingBox.Maps
         public static GameMapController Instance => _instance;
         private GameMapController() { }
         public GameMap CurrentGameMap { get; set; } = new GameMap();
-        public bool CheckMove(Input input, int x, int y)
+        /// <summary>
+        /// 移动逻辑是先根据指令移过去，再看在新位置能不能站住脚，若站不住脚就退回去。
+        /// 玩家先移到新位置，马上用本方法做判断能否在新位置站住脚，返回false则玩家退回。
+        /// 在本方法里，也是先移动，再判断，来确定箱子移动是否成功。当本方法返回true后，玩家留在新位置，玩家推动的箱子也留在了新位置。
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        public bool IsMoveOk(Input input, int x, int y)
         {
            
            
             var staticElements = CurrentGameMap.StaticElements;
             var boxElements = CurrentGameMap.BoxElements;
 
-            if (staticElements[y, x] is MapBlock)//该位置是墙，输出false
+            if (staticElements[y, x] is MapBlock)//该位置是墙，玩家移动失败，输出false。没有箱子被移动。
             {
                 return false;
             }
-            if (boxElements.Any(a => a.PositionX == x && a.PositionY == y))//该位置是箱子
+            if (boxElements.Any(a => a.PositionX == x && a.PositionY == y))//该位置是箱子，需要看顺着移动的方向有没有阻挡。
             {
                 var box = boxElements.Where(a => a.PositionX == x && a.PositionY == y).First();//取到该箱子
                 int oldX = box.PositionX, oldY = box.PositionY;
@@ -34,8 +43,7 @@ namespace George.PushingBox.Maps
                     case Input.RIGHT: box.PositionX++; break;
                     default: break;
                 }
-                //检查箱子新位置是否会让移动失败，若失败则退回。
-                //看有没有超出边界
+                //01 先检查箱子的新位置有没有越界。若越界则退回。
                 if (box.PositionX<0||box.PositionY<0||box.PositionX>CurrentGameMap.Width-1||box.PositionY>CurrentGameMap.Height-1)
                 {
                     box.PositionX = oldX;
@@ -43,14 +51,15 @@ namespace George.PushingBox.Maps
                     return false;
                 }
                
-                //先看有没有墙
+                //02 再看新位置是不是墙。若是墙则退回。
                 if (staticElements[box.PositionY, box.PositionX] is MapBlock)//新位置是墙，退回箱子，返回false
                 {
                     box.PositionX = oldX;
                     box.PositionY = oldY;
                     return false;
                 }
-                foreach (var item in boxElements)//检查箱子新位置是否有另一个箱子
+                //03 最后检查箱子新位置是否有另一个箱子
+                foreach (var item in boxElements)//
                 {
                     if (item != box)
                     {

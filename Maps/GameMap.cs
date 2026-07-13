@@ -44,7 +44,7 @@ namespace George.PushingBox.Maps
                 {
                     switch (mapArray[y, x])
                     {
-                        case 0://空区域，存入静态元素数组
+                        case 0://空区域，存入静态元素数组。整个地图区域必须全填满，否则不能盖住前一层的玩家影像。
                             StaticElements[y, x] = new MapEmpty(x, y, ' ');
                             break;
                         case 1://墙区域，存入静态元素数组

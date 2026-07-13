@@ -37,11 +37,11 @@ namespace George.PushingBox.GamePlayer
                     CurrentPlayer.PositionX++;
                     CurrentPlayer.PositionX = CurrentPlayer.PositionX > GameMapController.Instance.CurrentGameMap.Width - 1 ? GameMapController.Instance.CurrentGameMap.Width - 1 : CurrentPlayer.PositionX;
                     break;
-                case Input.Q:Console.Clear(); Environment.Exit(0); break;
+                case Input.QUIT:Console.Clear(); Environment.Exit(0); break;
                 default: break;
             }
             //在地图中检查新位置是否适合，即是否能移动成功，若不成功，则退回之前的位置。
-            if (!GameMapController.Instance.CheckMove(input, CurrentPlayer.PositionX, CurrentPlayer.PositionY))
+            if (!GameMapController.Instance.IsMoveOk(input, CurrentPlayer.PositionX, CurrentPlayer.PositionY))
             {
                 CurrentPlayer.PositionX = oldPositionX;
                 CurrentPlayer.PositionY = oldPositionY;
