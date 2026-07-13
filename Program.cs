@@ -13,13 +13,10 @@ namespace George.PushingBox
     {
         static void Main(string[] args)
         {
-            string jsonPath = @"Stages/StageInfos.json";
-            StageController.Instance.GetStageInfos(jsonPath);
-
-            var stageInfos = StageController.Instance.StageInfos;
-            var serializer = new SharpSerializer();
-            serializer.Serialize(stageInfos, "stageInfos.xml");
-
+            Console.SetWindowSize(60, 40);
+            //string filePath = @"Stages/StageInfos.json";
+            string filePath = @"Stages/StageInfos.xml";
+            StageController.Instance.GetStageInfos(filePath);
             StageController.Instance.ShowSelection();
             StageController.Instance.PrepareStage(); 
             StageController.Instance.PlayStage();

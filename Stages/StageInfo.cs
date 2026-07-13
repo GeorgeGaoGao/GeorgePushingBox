@@ -11,5 +11,6 @@ namespace George.PushingBox.Stages
         public int PlayerYStart { get; set; }
         public int[,] MapArray { get; set; }=new int[0,0];
 
+        public StageInfo() { }
     }
 }

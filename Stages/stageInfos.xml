@@ -1,0 +1,2875 @@
+﻿<SingleArray name="Root" type="George.PushingBox.Stages.StageInfo[], George.PushingBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+  <Items>
+    <Complex>
+      <Properties>
+        <Simple name="StageName" value="第一关" />
+        <Simple name="PlayerXStart" value="1" />
+        <Simple name="PlayerYStart" value="1" />
+        <MultiArray name="MapArray">
+          <Dimensions>
+            <Dimension length="16" />
+            <Dimension length="9" />
+          </Dimensions>
+          <Items>
+            <Item indexes="0,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,8">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,8">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,8">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,2">
+              <Simple value="2" />
+            </Item>
+            <Item indexes="10,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,7">
+              <Simple value="3" />
+            </Item>
+            <Item indexes="10,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="12,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="12,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="12,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="12,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="12,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="12,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="12,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="12,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="12,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="13,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="13,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="13,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="13,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="13,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="13,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="13,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="13,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="13,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="14,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="14,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="14,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="14,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="14,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="14,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="14,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="14,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="14,8">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="15,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="15,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="15,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="15,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="15,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="15,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="15,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="15,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="15,8">
+              <Simple value="0" />
+            </Item>
+          </Items>
+        </MultiArray>
+      </Properties>
+    </Complex>
+    <Complex>
+      <Properties>
+        <Simple name="StageName" value="第二关" />
+        <Simple name="PlayerXStart" value="1" />
+        <Simple name="PlayerYStart" value="1" />
+        <MultiArray name="MapArray">
+          <Dimensions>
+            <Dimension length="12" />
+            <Dimension length="8" />
+          </Dimensions>
+          <Items>
+            <Item indexes="0,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,1">
+              <Simple value="2" />
+            </Item>
+            <Item indexes="3,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,6">
+              <Simple value="3" />
+            </Item>
+            <Item indexes="3,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,7">
+              <Simple value="1" />
+            </Item>
+          </Items>
+        </MultiArray>
+      </Properties>
+    </Complex>
+    <Complex>
+      <Properties>
+        <Simple name="StageName" value="第三关" />
+        <Simple name="PlayerXStart" value="1" />
+        <Simple name="PlayerYStart" value="1" />
+        <MultiArray name="MapArray">
+          <Dimensions>
+            <Dimension length="12" />
+            <Dimension length="8" />
+          </Dimensions>
+          <Items>
+            <Item indexes="0,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,1">
+              <Simple value="2" />
+            </Item>
+            <Item indexes="3,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,6">
+              <Simple value="3" />
+            </Item>
+            <Item indexes="3,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,7">
+              <Simple value="1" />
+            </Item>
+          </Items>
+        </MultiArray>
+      </Properties>
+    </Complex>
+    <Complex>
+      <Properties>
+        <Simple name="StageName" value="第四关" />
+        <Simple name="PlayerXStart" value="1" />
+        <Simple name="PlayerYStart" value="1" />
+        <MultiArray name="MapArray">
+          <Dimensions>
+            <Dimension length="12" />
+            <Dimension length="8" />
+          </Dimensions>
+          <Items>
+            <Item indexes="0,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,1">
+              <Simple value="2" />
+            </Item>
+            <Item indexes="3,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,6">
+              <Simple value="3" />
+            </Item>
+            <Item indexes="3,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,7">
+              <Simple value="1" />
+            </Item>
+          </Items>
+        </MultiArray>
+      </Properties>
+    </Complex>
+    <Complex>
+      <Properties>
+        <Simple name="StageName" value="第五关" />
+        <Simple name="PlayerXStart" value="1" />
+        <Simple name="PlayerYStart" value="1" />
+        <MultiArray name="MapArray">
+          <Dimensions>
+            <Dimension length="12" />
+            <Dimension length="8" />
+          </Dimensions>
+          <Items>
+            <Item indexes="0,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,1">
+              <Simple value="2" />
+            </Item>
+            <Item indexes="3,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,6">
+              <Simple value="3" />
+            </Item>
+            <Item indexes="3,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,7">
+              <Simple value="1" />
+            </Item>
+          </Items>
+        </MultiArray>
+      </Properties>
+    </Complex>
+    <Complex>
+      <Properties>
+        <Simple name="StageName" value="第六关" />
+        <Simple name="PlayerXStart" value="1" />
+        <Simple name="PlayerYStart" value="1" />
+        <MultiArray name="MapArray">
+          <Dimensions>
+            <Dimension length="12" />
+            <Dimension length="8" />
+          </Dimensions>
+          <Items>
+            <Item indexes="0,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,1">
+              <Simple value="2" />
+            </Item>
+            <Item indexes="3,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,6">
+              <Simple value="3" />
+            </Item>
+            <Item indexes="3,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,7">
+              <Simple value="1" />
+            </Item>
+          </Items>
+        </MultiArray>
+      </Properties>
+    </Complex>
+    <Complex>
+      <Properties>
+        <Simple name="StageName" value="第七关" />
+        <Simple name="PlayerXStart" value="1" />
+        <Simple name="PlayerYStart" value="1" />
+        <MultiArray name="MapArray">
+          <Dimensions>
+            <Dimension length="12" />
+            <Dimension length="8" />
+          </Dimensions>
+          <Items>
+            <Item indexes="0,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,1">
+              <Simple value="2" />
+            </Item>
+            <Item indexes="3,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,6">
+              <Simple value="3" />
+            </Item>
+            <Item indexes="3,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,7">
+              <Simple value="1" />
+            </Item>
+          </Items>
+        </MultiArray>
+      </Properties>
+    </Complex>
+    <Complex>
+      <Properties>
+        <Simple name="StageName" value="第八关" />
+        <Simple name="PlayerXStart" value="1" />
+        <Simple name="PlayerYStart" value="1" />
+        <MultiArray name="MapArray">
+          <Dimensions>
+            <Dimension length="12" />
+            <Dimension length="8" />
+          </Dimensions>
+          <Items>
+            <Item indexes="0,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,1">
+              <Simple value="2" />
+            </Item>
+            <Item indexes="3,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,6">
+              <Simple value="3" />
+            </Item>
+            <Item indexes="3,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,7">
+              <Simple value="1" />
+            </Item>
+          </Items>
+        </MultiArray>
+      </Properties>
+    </Complex>
+    <Complex>
+      <Properties>
+        <Simple name="StageName" value="第九关" />
+        <Simple name="PlayerXStart" value="1" />
+        <Simple name="PlayerYStart" value="1" />
+        <MultiArray name="MapArray">
+          <Dimensions>
+            <Dimension length="12" />
+            <Dimension length="8" />
+          </Dimensions>
+          <Items>
+            <Item indexes="0,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,2">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="0,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="0,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="1,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="1,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="2,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="2,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="3,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,1">
+              <Simple value="2" />
+            </Item>
+            <Item indexes="3,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="3,6">
+              <Simple value="3" />
+            </Item>
+            <Item indexes="3,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="4,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="4,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="5,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="5,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="6,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="6,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,3">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="7,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="7,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="8,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,5">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="8,7">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="9,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="9,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,0">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,1">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,4">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="10,6">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="10,7">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,0">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,1">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,2">
+              <Simple value="0" />
+            </Item>
+            <Item indexes="11,3">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,4">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,5">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,6">
+              <Simple value="1" />
+            </Item>
+            <Item indexes="11,7">
+              <Simple value="1" />
+            </Item>
+          </Items>
+        </MultiArray>
+      </Properties>
+    </Complex>
+  </Items>
+</SingleArray>

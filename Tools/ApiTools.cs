@@ -12,22 +12,31 @@ namespace George.PushingBox.Tools
     }
     public class ApiTools
     {
-        public static int OriginalCursorTop { get; set; } = 10;
-        public static int OriginalCursorLeft { get; set; } = 50;
+        //设置原点位置，让内容显示在屏幕中间。
+        public static int OriginalCursorTop { get; set; } = 5;
+        public static int OriginalCursorLeft { get; set; } = 10;
 
+        /// <summary>
+        /// 将光标回到原点。
+        /// </summary>
         public static void InitCursor()
         {
             Console.CursorLeft = OriginalCursorLeft;
             Console.CursorTop = OriginalCursorTop;
         }
-
+        /// <summary>
+        /// 考虑光标原点的情况下打印字符串，在左边留好空。
+        /// </summary>
+        /// <param name="text"></param>
         public static void PrintText(string text)
         {
             Console.CursorLeft = OriginalCursorLeft;
             Console.WriteLine( text);
+            Console.CursorLeft = OriginalCursorLeft;
+
         }
         /// <summary>
-        /// 画基本元素的方法
+        /// 画基本元素的方法，把原点位置考虑进去。
         /// </summary>
         /// <param name="x"></param>
         /// <param name="y"></param>
@@ -36,6 +45,8 @@ namespace George.PushingBox.Tools
         {
             //x = x < 0 ? 0 : x;
             //y= y < 0 ? 0 : y;
+            //上面这两句不能达到目的，不能在渲染这里来保证不出零边界，应在移动光标的位置解决。
+            //如果在这里解决，即使看上去没出零边界，但实际XY是负值，会导致往正向移动时按多次键都没反应。
            
             Console.CursorLeft =OriginalCursorLeft+ x; Console.CursorTop =OriginalCursorTop+ y;
             Console.Write(avatar);
