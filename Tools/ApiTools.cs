@@ -24,6 +24,9 @@ namespace George.PushingBox.Tools
             Console.CursorLeft = OriginalCursorLeft;
             Console.CursorTop = OriginalCursorTop;
         }
+
+        
+
         /// <summary>
         /// 考虑光标原点的情况下打印字符串，在左边留好空。
         /// </summary>

@@ -13,7 +13,9 @@ namespace George.PushingBox
     {
         static void Main(string[] args)
         {
-            Console.SetWindowSize(60, 40);
+            int width = 80, height = 30;
+            Console.SetWindowSize(width,height);
+            Console.SetBufferSize(width, height);
             //string filePath = @"Stages/StageInfos.json";
             string filePath = @"Stages/StageInfos.xml";
             StageController.Instance.GetStageInfos(filePath);

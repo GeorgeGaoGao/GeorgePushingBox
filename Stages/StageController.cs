@@ -16,6 +16,12 @@ namespace George.PushingBox.Stages
         private static StageController _instance = new StageController();
         public static StageController Instance => _instance;
         private StageController() { }
+
+        ConsoleColor _titleColor = ConsoleColor.Yellow;
+        ConsoleColor _normalColor = ConsoleColor.White;
+        ConsoleColor _selectedColor = ConsoleColor.Red;
+
+
         private int _stageSelected;
 
         public StageInfo[] StageInfos { get; set; } = Array.Empty<StageInfo>();
@@ -46,9 +52,12 @@ namespace George.PushingBox.Stages
         /// </summary>
         public void ShowSelection()
         {
+           
             Console.Clear();
             ApiTools.InitCursor();
+            Console.ForegroundColor = _titleColor;
             ApiTools.PrintText($"********************欢迎来到推箱子的世界********************");
+            Console.ForegroundColor = _normalColor;
 
             //显示所有关卡的名字
             for (int i = 0; i < StageInfos.Length; i++)
@@ -56,12 +65,18 @@ namespace George.PushingBox.Stages
                 ApiTools.PrintText($"{i + 1} {StageInfos[i].StageName}");
             }
             ApiTools.PrintText("\r");
+            Console.ForegroundColor = _titleColor;
             ApiTools.PrintText($"任意时刻按Esc键退出游戏");
+            Console.ForegroundColor=_normalColor;
             //显示光标，让光标只在关卡名字间移动，同时记录下关卡数保存到_stageSelected，后续根据关卡数启动该关卡
             Console.CursorVisible = true;
-            //将光标退回到第一关所在行
+            //将光标退回到第一关所在行,并将第一行标红,也就是用红色重新打印，打印完后再将光标复位。
             Console.CursorTop = Console.CursorTop - 3 - (StageInfos.Length - 1);
             var stageIndex = 0;
+            Console.ForegroundColor = _selectedColor;
+            ApiTools.PrintText($"{stageIndex + 1} {StageInfos[stageIndex].StageName}");
+            Console.ForegroundColor= _normalColor;
+            Console.CursorTop--;
 
             //让用户选择关卡，死循环，终止条件是选定了后按的回车键
             bool isSelectionConfirmed = false;
@@ -73,15 +88,40 @@ namespace George.PushingBox.Stages
                     case Input.UP:
                         if (stageIndex > 0)
                         {
+                            //光标移动前先将当前行恢复成白色。完成后光标要复位。
+                            Console.ForegroundColor = _normalColor;
+                            ApiTools.PrintText($"{stageIndex + 1} {StageInfos[stageIndex].StageName}");
+                            Console.CursorTop--;
+                           
+                            //移动光标
                             stageIndex--;
                             Console.CursorTop--;
+
+                            //新光标所在行标红。完成后光标要复位。
+                            Console.ForegroundColor = _selectedColor;
+                            ApiTools.PrintText($"{stageIndex + 1} {StageInfos[stageIndex].StageName}");
+                            Console.CursorTop--;
+                            Console.ForegroundColor = _normalColor;
+
                         }
                         break;
                     case Input.DOWN:
                         if (stageIndex < StageInfos.Length - 1)
                         {
+                            //光标移动前先将当前行恢复成白色。完成后光标要复位。
+                            Console.ForegroundColor = _normalColor;
+                            ApiTools.PrintText($"{stageIndex + 1} {StageInfos[stageIndex].StageName}");
+                            Console.CursorTop--;
+
+                            //移动光标
                             stageIndex++;
                             Console.CursorTop++;
+
+                            //新光标所在行标红。完成后光标要复位。
+                            Console.ForegroundColor = _selectedColor;
+                            ApiTools.PrintText($"{stageIndex + 1} {StageInfos[stageIndex].StageName}");
+                            Console.CursorTop--;
+                            Console.ForegroundColor = _normalColor;
                         }
                         break;
                     case Input.ENTER:
@@ -110,7 +150,9 @@ namespace George.PushingBox.Stages
             //初始化该关卡的地图
             var stage = StageInfos[_stageSelected];
             Console.CursorTop -= 2;
+            Console.ForegroundColor = _titleColor;
             ApiTools.PrintText(stage.StageName);
+            Console.ForegroundColor= _normalColor;
             GameMapController.Instance.CurrentGameMap.InitMap(stage.MapArray);
             //将玩家置于初始位置。渲染地图和玩家。
             PlayerController.Instance.CurrentPlayer.PositionX = stage.PlayerXStart;
